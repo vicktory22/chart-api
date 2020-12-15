@@ -1,0 +1,29 @@
+{
+  "name": "chart-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicktory22/chart-api.git"
+  },
+  "author": "Tim Vick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicktory22/chart-api/issues"
+  },
+  "homepage": "https://github.com/vicktory22/chart-api#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.9.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
